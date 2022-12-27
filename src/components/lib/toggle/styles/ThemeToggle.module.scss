@@ -1,0 +1,26 @@
+.theme_toggle_main {
+    cursor: pointer;
+    display: inline-flex;
+
+
+    .container {
+
+        .theme_toggle_icon {
+            path{
+                transition: all .3s ease-in-out;
+            }
+        }
+    }
+}
+
+
+.light {
+    path:nth-child(1) {
+        stroke: var(--yellow);
+    }
+}
+.dark {
+    path:nth-child(2) {
+        fill: var(--yellow);
+    }
+}

@@ -1,0 +1,76 @@
+
+.editor_main {
+    margin-top: 3.2rem;
+
+    *{
+        font-family: 'InterVariable', 'Noto Sans GeorgianVariable',sans-serif;
+    }
+
+    .container {
+        max-width: 63rem;
+        width: 95%;
+        margin: 0 auto;
+
+        a{
+            color: var(--blue-1);
+            text-decoration: underline;
+        }
+
+        .toolbar_seperator {
+            height: 1.1rem;
+            border-right: 1px solid var(--gray);
+            display: inline-block;
+            transform: translateY(-20%);
+            margin: 0 .5rem;
+        }
+
+        .editor_actions{
+            .editor_actions_container{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: .8rem 0rem;
+                border-bottom: 1px solid var(--gray-2);
+
+                .button_container {
+                    display: flex;
+                    flex-direction: row;
+                    gap: .5rem;
+                }
+            }
+        }
+
+        .editor_toolbar {
+            border-top: .7px solid var(--gray-1);
+            padding-top: 2rem;
+
+           
+
+            button {
+                background: none;
+                border: none;
+                cursor: pointer;
+                margin: 0 .3rem;
+                transition: filter .2s ease-in-out;
+
+                &:hover{
+                    filter: saturate(1.5) contrast(3.5);
+                }
+            }
+        }
+
+        .editor {
+            height: 64vh;
+            margin-top: 3rem;
+            
+
+            *:focus-visible {
+                outline: none;
+            }
+
+            p {
+                font-size: 1rem;             
+            }
+        }
+    }
+}

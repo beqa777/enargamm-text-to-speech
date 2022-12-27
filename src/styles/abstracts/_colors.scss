@@ -1,0 +1,39 @@
+:root {
+    --white: #F8F8F8;
+    --white-1: #fff;
+
+    --gray: #9aa8b9;
+    --gray-1: #dbdbdb;
+    --gray-2: #EDEDED;
+    --gray-3: #F4F8FC;
+
+    --black: #000;
+    --black-1: #09121F;
+    --black-2: #162A48;
+    --black-3: #606060;
+    --black-4: #4B4B4B;
+    
+    // --blue: #0080FF;
+    // --blue-1: #3094f8;
+    // --blue-2: #51a4f7;
+
+    --yellow: #E6D131;
+
+    --blue: #2D62ED;
+    --blue-1: #5579DB;
+    --blue-2: #8BA6F0;
+
+    --light_blue: #55A3F7;
+    --light_blue-1: #7AD0FA;
+
+    --orange: #EA6A2C;
+    --orange-1: #F0A039;
+}
+
+
+// @media (prefers-color-scheme: light) {
+//     [data-theme='dark'] {
+//         --white-1: black !important;
+//         --black: white !important;
+//     }
+// }

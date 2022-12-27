@@ -1,0 +1,16 @@
+.dashoboard_layout {
+    display: grid;
+    grid-template-columns: 11rem 1fr;
+    height: 92.1vh;
+
+
+    .side_menu {
+        grid-column: 1/2;
+    }
+
+    .content {
+        grid-column: 2/3;
+        overflow: auto;
+        background-color: var(--white);
+    }
+}
